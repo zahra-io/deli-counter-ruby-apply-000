@@ -1,5 +1,5 @@
 # Write your code here.
-def line(deli)
+def line(katz_deli)
   # check if array is empty
   if deli.empty?
     puts "The line is currently empty."
