@@ -15,6 +15,7 @@ end
 def take_a_numer(katz_deli, name)
   # check if line is empty
   # add person to the line
+  
     katz_deli << name
     puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
