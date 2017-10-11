@@ -12,4 +12,4 @@ def line(katz_deli)
   end
 end
 
-def take_a_numer()
+def take_a_numer(katz_deli, name)
