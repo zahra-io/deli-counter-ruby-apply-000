@@ -17,6 +17,7 @@ def take_a_numer(katz_deli, name)
   if katz_deli.empty?
   katz_deli << name
   puts "Welcome, #{name}. You are numer #{katz_deli.length} in line."
+end 
 
 
 end
