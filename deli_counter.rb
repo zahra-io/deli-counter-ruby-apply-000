@@ -10,4 +10,4 @@ def line(katz_deli)
     end
     puts current_place
   end
-end 
+end
