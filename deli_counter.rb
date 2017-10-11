@@ -7,4 +7,6 @@ def line(katz_deli)
     current_place = "The line is currently:"
     katz_deli.each.any? do |person, place|
       current_place << " #{place}. #{person}"
+    end
+    puts current_place
 end
