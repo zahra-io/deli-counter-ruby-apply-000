@@ -13,6 +13,7 @@ def line(katz_deli)
 end
 
 def take_a_numer(katz_deli, name)
+  ## add a person to an empty line
   katz_deli << name 
-    
+
 end
