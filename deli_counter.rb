@@ -9,4 +9,5 @@ def line(katz_deli)
       current_place << " #{place}. #{person}"
     end
     puts current_place
-end
+  end
+end 
