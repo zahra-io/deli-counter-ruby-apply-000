@@ -27,4 +27,5 @@ def now_serving(katz_deli)
     # remove the first person already served
     puts "Currently serving #{katz_deli.first}."
     katz_deli.shift
+  end 
 end
