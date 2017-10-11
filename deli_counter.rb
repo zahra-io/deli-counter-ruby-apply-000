@@ -13,11 +13,8 @@ def line(katz_deli)
 end
 
 def take_a_numer(katz_deli, name)
-  ## add a person to an empty line
-  if katz_deli.empty?
+  # check if line is empty
+  # add person to the line
     katz_deli << name
-  elsif
-    katz_deli.push(name)
-  puts "Welcome, #{name}. You are numer #{katz_deli.length} in line."
-end 
+    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
