@@ -17,5 +17,6 @@ def take_a_numer(katz_deli, name)
   # add person to the line
     if katz_deli.empty?
       katz_deli.push(name)
+    elsif !katz_deli.empty?
     puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
